@@ -1,6 +1,35 @@
+## ENG
+
+### Requirements:
+A text-based application simulating a conversation with a human.
+
+The application should consist of a conversation display area, a text input field for typing messages, and a send button.
+
+Initially, the conversation area should display a welcome message from the bot, e.g., "Hi, how are your JS classes going?"
+
+The user can type any message in the text input field and confirm it with the send button, which will add their message to the conversation window and clear the input field.
+
+The user should also be able to send a message using the Enter key.
+
+The bot should respond to each user message with its own message.
+
+The content of the bot's responses is not important, but it must be deterministic (always responding the same way to the same user input).
+Prepare at least three different responses.
+
+### Additional Features
+The bot's message should not appear instantly. Simulate a short delay before the bot responds.
+
+Implement a profanity detection mechanism (e.g., "dang it"). If the user tries to send a message with forbidden words,
+they should receive an alert, and instead of their message appearing in the conversation, the bot should display a red message:
+"Please, do not use such words."
+
+Provide commands for the bot:
+* /version → Example response: Software version: v1.2.3
+* /weather krakow → Example response (fictional): In Krakow, it's 22 degrees.
+
 ## PL
 
-Wymagania: 
+### Wymagania: 
 
 Aplikacja udająca rozmowę z człowiekiem w formie tekstowej.
 
@@ -20,31 +49,3 @@ Dostarcz mechanizm wykrywania wulgaryzmów (np. motyla noga). Jeśli użytkownik
 Dostarcz komendy dla bota:
 /version, przykładowa odpowiedź: Wersja oprogramowania: v1.2.3
 /pogoda kraków, przykładowa odpowiedź (zmyślona): W kraków jest 22 stopnie
-
-## ENG
-
-Requirements:
-A text-based application simulating a conversation with a human.
-
-The application should consist of a conversation display area, a text input field for typing messages, and a send button.
-
-Initially, the conversation area should display a welcome message from the bot, e.g., "Hi, how are your JS classes going?"
-
-The user can type any message in the text input field and confirm it with the send button, which will add their message to the conversation window and clear the input field.
-
-The user should also be able to send a message using the Enter key.
-
-The bot should respond to each user message with its own message.
-
-The content of the bot's responses is not important, but it must be deterministic (always responding the same way to the same user input). Prepare at least three different responses.
-
-Additional Features
-The bot's message should not appear instantly. Simulate a short delay before the bot responds.
-
-Implement a profanity detection mechanism (e.g., "dang it"). If the user tries to send a message with forbidden words, they should receive an alert, and instead of their message appearing in the conversation, the bot should display a red message: "Please, do not use such words."
-
-Provide commands for the bot:
-
-/version → Example response: Software version: v1.2.3
-
-/weather krakow → Example response (fictional): In Krakow, it's 22 degrees.
