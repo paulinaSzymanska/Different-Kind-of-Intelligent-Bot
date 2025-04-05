@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>A different kind of intelligent bot</title>
+    <title>Chat-bot</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -32,10 +32,10 @@
 
     function handleCommand(message) {
         if (message === "/version") {
-            return "version: v0.0.1";
+            return "Software version: v0.0.1";
         } else if (message.startsWith("/weather ")) {
             let city = message.split(" ")[1];
-            return `W ${city} jest 22 stopnie`;
+            return `In ${city} it's 22 degrees`;
         }
         return null;
     }
